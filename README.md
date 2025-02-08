@@ -1,14 +1,12 @@
-# Temperature Conversion Program
+# Temperature Conversion Project
 
-This program performs temperature conversions between Celsius, Fahrenheit, and Kelvin. It supports single and batch conversions, precision control, and generates a conversion table saved to a file.
+This C project does temperature conversions between Celsius, Fahrenheit, and Kelvin. The way it works is by letting you input a temperature value and select the unit you want to convert it to.
 
-- **Temperature Conversion Table**: Generates a reference table for Celsius-Fahrenheit conversions.
-- **Batch Conversion Mode**: Allows multiple temperature conversions with user-defined precision.
-- **Kelvin Support**: Converts between Celsius, Fahrenheit, and Kelvin.
-- **File Output**: Saves conversion data to a text file.
-- **User-Friendly Interface**: Provides interactive prompts for input selection.
+You can convert a single value or process multiple conversions in batch mode, specifying the level of precision you need. The project also supports Kelvin conversions alongside Celsius and Fahrenheit, making it more versatile. If you want to keep track of your conversions, there's an option to save the results to a file. Additionally, a reference conversion table can be generated for quick lookup of Celsius-to-Fahrenheit conversions.
 
-## Example Usage
+I created this project because I wanted a simple and efficient way to handle temperature conversions without relying on online calculators. It was a great challenge to implement batch processing and precision control while keeping the interface easy to use. Whether you’re converting a single value or generating a full conversion table, this project makes the process straightforward and accessible.
+
+## Example Output
 ```
 Enter the number of conversions: 3
 Enter decimal precision (0-5): 3
